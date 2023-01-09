@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); 
+
+:root{
+    --fonte-normal:Verdana, Geneva, Tahoma, sans-seri;
+    --fonte-texto:'Kalam', cursive;
+    --fonte-titulo:'Anton', sans-serif;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    background-color: black;
+    font-family:var(--fonte-normal);
+    color: white;
+}
+
+/* CABEÇALHO DO SITE */
+ header{
+    background-image: linear-gradient(to bottom, black, black, rgb(20, 20, 20), rgb(39, 39, 39), rgb(71, 71, 71));
+    text-align: center;
+    color: white;
+ }
+ header h1{
+    font-family: var(--fonte-titulo);
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 8vw;
+    padding-top: 50px;
+ }
+ header p{
+    font-size:3vw;
+    padding-bottom: 50px;
+ }
+/* FINAL DO CABEÇALHO DO SITE */
+
+section{
+    padding-top: 10vh;
+    padding-bottom:10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte-texto);
+    font-weight: bold;
+    font-size: 3.8vw;
+    
+}
+section.img01{
+    background-image: url(../imagens/fundo1.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: top center;
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.548);
+    text-shadow: 2px 2px 2px black;
+}
+section.img02{
+    background-image: url(../imagens/fundo2.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: left center;
+    box-shadow: inset 7px 7px 15px rgba(0, 0, 0, 0.548);
+    text-shadow: 2px 2px 2px black;
+}
+section.img03{
+    background-image: url(../imagens/fundo3.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center center;
+    box-shadow: inset 7px 7px 15px rgba(0, 0, 0, 0.548);
+    text-shadow: 2px 2px 2px black;
+}
+
+section p.imagem{
+    display: inline-block;
+    background-color: rgba(24, 24, 24, 0.336);
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+}
+
+/* LINKS DO SITE */
+ a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*FIM DO LINKS DO SITE */
+
+/* RODAPÉ DO SITE */
+footer{
+    background-image: linear-gradient(to bottom, black, black, rgb(20, 20, 20), rgb(39, 39, 39), rgb(71, 71, 71));
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
